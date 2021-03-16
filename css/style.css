@@ -75,3 +75,12 @@ img {
 .clear {
   clear: both;
 }
+
+@media all and (min-width: 768px) and (max-width: 991px){
+  .container.grey{
+    background-color: rgb(231, 241, 241);
+  }
+  .container.green{
+    background-color: rgb(213, 252, 213);
+  }
+}
